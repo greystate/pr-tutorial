@@ -6,3 +6,10 @@ body { font-size: 1.6em; line-height: 1.4; }
 
 article > * + * { margin-top: 1em; }
 
+article {
+    box-sizing: content-box;
+    max-width: 80ch;
+    margin: auto;
+    padding-left:  4vmin;
+    padding-right: 4vmin;
+}
